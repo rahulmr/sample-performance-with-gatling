@@ -6,7 +6,7 @@
     <version>1.0-SNAPSHOT</version>
     <name>sample-performance-with-gatling</name>
     <properties>
-        <gatling.version>2.2.0-M2</gatling.version>
+        <gatling.version>2.3.1</gatling.version>
     </properties>
     <dependencies>
         <dependency>
@@ -20,12 +20,12 @@
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
-                <version>3.2.2</version>
+                <version>3.4.2</version>
             </plugin>
             <plugin>
                 <groupId>io.gatling</groupId>
                 <artifactId>gatling-maven-plugin</artifactId>
-                <version>${gatling.version}</version>
+                <version>2.2.4</version>
                 <configuration>
                     <jvmArgs>
                         <jvmArg>-Durl=http://localhost:9000</jvmArg>
